@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using TechLink.Infrastructure.Data;
+
 namespace TechLinkAPI
 {
     public class Program
@@ -12,6 +15,9 @@ namespace TechLinkAPI
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+
+            builder.Services.AddDbContext<TechLinkDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("TechLinkConnection")));
 
             var app = builder.Build();
 
