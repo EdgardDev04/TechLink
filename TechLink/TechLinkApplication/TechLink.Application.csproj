@@ -7,13 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="UseCases\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\TechLinkDomain\TechLink.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TechLinkDomain\TechLink.Domain.csproj" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
 
 </Project>

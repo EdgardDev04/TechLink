@@ -20,12 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="External\" />
-    <Folder Include="Security\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\TechLinkDomain\TechLink.Domain.csproj" />
   </ItemGroup>
 

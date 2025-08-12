@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using TechLink.Domain.Entities;
 
 namespace TechLink.Infrastructure.Configurations
 {
@@ -17,15 +18,13 @@ namespace TechLink.Infrastructure.Configurations
 
             builder.Property(u => u.UserName);
 
+            builder.Property(u => u.ImageProfile);
+
             builder.Property(u => u.Email);
 
             builder.Property(u => u.Password);
 
             builder.Property(u => u.RegisteredAt);
-
-            builder.Property(u => u.IsActive);
-
-            builder.Property(u => u.EmailConfirmed);
 
             builder.Property(u => u.LastLogin);
 
@@ -33,13 +32,6 @@ namespace TechLink.Infrastructure.Configurations
               .WithMany()
               .HasForeignKey(n => n.RoleId)
               .OnDelete(DeleteBehavior.Cascade);
-
-            builder.HasOne(n => n.Customer)
-              .WithMany()
-              .HasForeignKey(n => n.CustomerId)
-              .OnDelete(DeleteBehavior.Cascade);
-
-
         }
     }
 }
