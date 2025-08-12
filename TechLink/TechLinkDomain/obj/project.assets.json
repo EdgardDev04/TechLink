@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\edgar\\.nuget\\packages\\": {},
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
+      "projectUniqueName": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
       "projectName": "TechLink.Domain",
-      "projectPath": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
-      "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\obj\\",
+      "projectPath": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

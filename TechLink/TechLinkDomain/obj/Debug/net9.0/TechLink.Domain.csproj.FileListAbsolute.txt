@@ -1,0 +1,12 @@
+E:\Project\TechLink\TechLink\TechLinkDomain\bin\Debug\net9.0\TechLink.Domain.deps.json
+E:\Project\TechLink\TechLink\TechLinkDomain\bin\Debug\net9.0\TechLink.Domain.dll
+E:\Project\TechLink\TechLink\TechLinkDomain\bin\Debug\net9.0\TechLink.Domain.pdb
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\TechLink.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\TechLink.Domain.AssemblyInfoInputs.cache
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\TechLink.Domain.AssemblyInfo.cs
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\TechLink.Domain.csproj.CoreCompileInputs.cache
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\TechLink.Domain.sourcelink.json
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\TechLink.Domain.dll
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\refint\TechLink.Domain.dll
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\TechLink.Domain.pdb
+E:\Project\TechLink\TechLink\TechLinkDomain\obj\Debug\net9.0\ref\TechLink.Domain.dll

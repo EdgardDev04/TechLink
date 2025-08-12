@@ -26,5 +26,9 @@ namespace TechLink.Domain.Entities
         [ForeignKey(nameof(Shipping))]
         public int ShippingId { get; set; }
         public Shipping Shipping { get; set; }
+
+        [ForeignKey(nameof(Coupon))]
+        public int CouponId { get; set; } 
+        public Coupon Coupon { get; set; }
     }
 }

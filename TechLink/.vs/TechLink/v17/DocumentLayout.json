@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\TechLink\\TechLink\\",
+  "WorkspaceRootPath": "E:\\Project\\TechLink\\TechLink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|d:\\project\\techlink\\techlink\\techlinkdomain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DD6A49B-0A28-4846-9760-788DA22E5B0D}|TechLinkAPI\\TechLink.API.csproj|e:\\project\\techlink\\techlink\\techlinkapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DD6A49B-0A28-4846-9760-788DA22E5B0D}|TechLinkAPI\\TechLink.API.csproj|solutionrelative:techlinkapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\project\\techlink\\techlink\\techlinkinfrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\project\\techlink\\techlink\\techlinkinfrastructure\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\project\\techlink\\techlink\\techlinkinfrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\project\\techlink\\techlink\\techlinkinfrastructure\\configurations\\shippingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\configurations\\shippingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\project\\techlink\\techlink\\techlinkinfrastructure\\configurations\\wishlistconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\configurations\\wishlistconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DD6A49B-0A28-4846-9760-788DA22E5B0D}|TechLinkAPI\\TechLink.API.csproj|e:\\project\\techlink\\techlink\\techlinkapi\\techlink.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DD6A49B-0A28-4846-9760-788DA22E5B0D}|TechLinkAPI\\TechLink.API.csproj|solutionrelative:techlinkapi\\techlink.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "TechLinkDomain\\Entities\\Product.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Entities\\Product.cs",
-              "RelativeToolTip": "TechLinkDomain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T01:37:51.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T01:36:23.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReviewConfiguration.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\ReviewConfiguration.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Configurations\\ReviewConfiguration.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\ReviewConfiguration.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Configurations\\ReviewConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T01:27:32.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\RoleConfiguration.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Configurations\\RoleConfiguration.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\RoleConfiguration.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Configurations\\RoleConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T01:25:25.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShippingConfiguration.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\ShippingConfiguration.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Configurations\\ShippingConfiguration.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\ShippingConfiguration.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Configurations\\ShippingConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T01:21:34.646Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TechLinkAPI\\appsettings.json",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkAPI\\appsettings.json",
+              "RelativeToolTip": "TechLinkAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-12T15:29:01.185Z",
               "EditorCaption": ""
             },
             {
@@ -107,15 +39,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WishListConfiguration.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\WishListConfiguration.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Configurations\\WishListConfiguration.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Configurations\\WishListConfiguration.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Configurations\\WishListConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T23:37:23.095Z",
+              "DocumentIndex": 1,
+              "Title": "TechLink.API",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkAPI\\TechLink.API.csproj",
+              "RelativeDocumentMoniker": "TechLinkAPI\\TechLink.API.csproj",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkAPI\\TechLink.API.csproj",
+              "RelativeToolTip": "TechLinkAPI\\TechLink.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T15:15:50.522Z",
               "EditorCaption": ""
             }
           ]

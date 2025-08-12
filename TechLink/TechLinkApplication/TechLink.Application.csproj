@@ -10,8 +10,4 @@
     <ProjectReference Include="..\TechLinkDomain\TechLink.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
-
 </Project>
