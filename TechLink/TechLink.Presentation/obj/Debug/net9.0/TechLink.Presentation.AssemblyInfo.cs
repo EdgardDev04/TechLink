@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechLink.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c881c6b49cf8e19eb92c898fb38d514c637e8088")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99daa943f6db8c8ce81c3099f902ecac03930666")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechLink.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechLink.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -193,3 +193,4 @@ D:\Project\TechLink\TechLink\TechLink.Presentation\obj\Debug\net9.0\refint\TechL
 D:\Project\TechLink\TechLink\TechLink.Presentation\obj\Debug\net9.0\TechLink.Presentation.pdb
 D:\Project\TechLink\TechLink\TechLink.Presentation\obj\Debug\net9.0\TechLink.Presentation.genruntimeconfig.cache
 D:\Project\TechLink\TechLink\TechLink.Presentation\obj\Debug\net9.0\ref\TechLink.Presentation.dll
+E:\Project\TechLink\TechLink\TechLink.Presentation\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

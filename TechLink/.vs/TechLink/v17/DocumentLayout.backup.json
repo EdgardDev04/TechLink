@@ -1,14 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\TechLink\\TechLink\\",
+  "WorkspaceRootPath": "E:\\Project\\TechLink\\TechLink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|d:\\project\\techlink\\techlink\\techlinkdomain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\project\\techlink\\techlink\\techlinkinfrastructure\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\shippingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\shippingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\orderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\couponmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\couponmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\project\\techlink\\techlink\\techlinkdomain\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\models\\addressmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\project\\techlink\\techlink\\techlinkapplication\\dtos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFAC746-1394-4C45-9B27-C46B8571CF28}|TechLink.Presentation\\TechLink.Presentation.csproj|e:\\project\\techlink\\techlink\\techlink.presentation\\models\\response\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFAC746-1394-4C45-9B27-C46B8571CF28}|TechLink.Presentation\\TechLink.Presentation.csproj|solutionrelative:techlink.presentation\\models\\response\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFAC746-1394-4C45-9B27-C46B8571CF28}|TechLink.Presentation\\TechLink.Presentation.csproj|e:\\project\\techlink\\techlink\\techlink.presentation\\models\\request\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFAC746-1394-4C45-9B27-C46B8571CF28}|TechLink.Presentation\\TechLink.Presentation.csproj|solutionrelative:techlink.presentation\\models\\request\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|e:\\project\\techlink\\techlink\\techlinkinfrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +87,196 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Address.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Entities\\Address.cs",
-              "RelativeDocumentMoniker": "TechLinkDomain\\Entities\\Address.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Entities\\Address.cs",
-              "RelativeToolTip": "TechLinkDomain\\Entities\\Address.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCQAAAAFAAAAAAAAAA==",
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\UserModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\UserModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T01:16:42.463Z",
+              "WhenOpened": "2025-08-13T17:50:54.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShippingModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\ShippingModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\ShippingModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\ShippingModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\ShippingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:50:46.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\RoleModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\RoleModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\RoleModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\RoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:50:34.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReviewModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\ReviewModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\ReviewModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\ReviewModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\ReviewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:50:25.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\ProductModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\ProductModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:50:15.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\PaymentModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\PaymentModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\PaymentModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\PaymentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:50:05.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderItemModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\OrderItemModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\OrderItemModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\OrderItemModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\OrderItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:49:55.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\OrderModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\OrderModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:49:45.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\NotificationModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\NotificationModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\NotificationModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\NotificationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:49:36.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CouponModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CouponModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\CouponModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CouponModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\CouponModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:49:21.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\CategoryModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\CategoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:49:12.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartItemModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CartItemModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\CartItemModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CartItemModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\CartItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:48:50.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CartModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\CartModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\CartModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\CartModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:48:42.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddressModel.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\AddressModel.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Models\\AddressModel.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkDomain\\Models\\AddressModel.cs",
+              "RelativeToolTip": "TechLinkDomain\\Models\\AddressModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:48:25.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkApplication\\DTOs\\Class1.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\DTOs\\Class1.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkApplication\\DTOs\\Class1.cs",
+              "RelativeToolTip": "TechLinkApplication\\DTOs\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:31:18.525Z",
               "EditorCaption": ""
             },
             {
@@ -39,15 +285,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddressRepository.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCgAAABJAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Class.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\Models\\Response\\Class.cs",
+              "RelativeDocumentMoniker": "TechLink.Presentation\\Models\\Response\\Class.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\Models\\Response\\Class.cs",
+              "RelativeToolTip": "TechLink.Presentation\\Models\\Response\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T00:48:33.597Z",
+              "WhenOpened": "2025-08-13T17:27:08.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\Models\\Request\\Class.cs",
+              "RelativeDocumentMoniker": "TechLink.Presentation\\Models\\Request\\Class.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\Models\\Request\\Class.cs",
+              "RelativeToolTip": "TechLink.Presentation\\Models\\Request\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:27:01.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "E:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
+              "ToolTip": "E:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
+              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T13:12:11.43Z",
               "EditorCaption": ""
             }
           ]

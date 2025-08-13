@@ -9,7 +9,7 @@ namespace TechLink.Domain.Interfaces
 {
     public interface ICategoryRepository : IRepository<Category>
     {
-        Task<Category?> GetCategoryWithProductsAsync(int categoryId);
+        Task<IEnumerable<Product>> GetProductsByCategoryIdAsync(int categoryId);
     }
 
 }

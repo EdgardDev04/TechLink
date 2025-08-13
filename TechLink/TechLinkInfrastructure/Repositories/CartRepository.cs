@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using TechLink.Domain.Entities;
 using TechLink.Domain.Interfaces;
 using TechLink.Infrastructure.Data;
@@ -17,13 +18,15 @@ namespace TechLink.Infrastructure.Repositories
         {
             _context = context;
         }
-        public Task AddAsync(Cart entity)
+        public async Task AddAsync(Cart entity)
         {
-            throw new NotImplementedException();
+            _context.Cart.Add(entity);
+            await _context.SaveChangesAsync();
         }
-        public Task DeleteAsync(Cart entity)
+        public async Task DeleteAsync(Cart entity)
         {
-            throw new NotImplementedException();
+            _context.Cart.Remove(entity);
+            await _context.SaveChangesAsync();
         }
         public Task<IEnumerable<Cart>> GetAllAsync()
         {
@@ -33,13 +36,21 @@ namespace TechLink.Infrastructure.Repositories
         {
             throw new NotImplementedException();
         }
-        public Task<Cart?> GetCartByUserIdAsync(int userId)
+        public async Task<Cart?> GetCartByUserIdAsync(int userId)
         {
-            throw new NotImplementedException();
+            var cartExist = await _context.Cart.FirstOrDefaultAsync(x => x.UserId == userId);
+
+            if (cartExist == null)
+            {
+                throw new Exception("Cart does not exist");
+            }
+
+            return cartExist;
         }
-        public Task UpdateAsync(Cart entity)
+        public async Task UpdateAsync(Cart entity)
         {
-            throw new NotImplementedException();
+            _context.Cart.Update(entity);
+            await _context.SaveChangesAsync();
         }
     }
 }

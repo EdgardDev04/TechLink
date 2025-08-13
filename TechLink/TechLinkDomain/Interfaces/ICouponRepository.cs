@@ -10,6 +10,7 @@ namespace TechLink.Domain.Interfaces
     public interface ICouponRepository : IRepository<Coupon>
     {
         Task<Coupon?> GetByCodeAsync(string code);
+        Task ApplyCouponAsync(Coupon coupon);
     }
 
 }

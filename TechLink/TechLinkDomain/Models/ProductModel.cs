@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechLink.Infrastructure.Repositories
+namespace TechLink.Domain.Models
 {
-    internal class RoleRepository
+    internal class ProductModel
     {
     }
 }

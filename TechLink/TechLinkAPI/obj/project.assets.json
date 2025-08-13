@@ -4781,23 +4781,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\edgar\\.nuget\\packages\\": {},
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\TechLink\\TechLink\\TechLinkAPI\\TechLink.API.csproj",
+      "projectUniqueName": "E:\\Project\\TechLink\\TechLink\\TechLinkAPI\\TechLink.API.csproj",
       "projectName": "TechLink.API",
-      "projectPath": "D:\\Project\\TechLink\\TechLink\\TechLinkAPI\\TechLink.API.csproj",
-      "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\TechLink\\TechLink\\TechLinkAPI\\obj\\",
+      "projectPath": "E:\\Project\\TechLink\\TechLink\\TechLinkAPI\\TechLink.API.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\TechLink\\TechLink\\TechLinkAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4812,8 +4812,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
-              "projectPath": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj"
+            "E:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
+              "projectPath": "E:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj"
             }
           }
         }

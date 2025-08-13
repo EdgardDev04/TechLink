@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {}
+    "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {
+    "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
+        "projectUniqueName": "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
         "projectName": "TechLink.Presentation",
-        "projectPath": "D:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\obj\\",
+        "projectPath": "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\TechLink\\TechLink\\TechLink.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
