@@ -1,19 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechLink.Domain.Base;
 using TechLink.Domain.Entities;
 
 namespace TechLink.Domain.Models
 {
-    public class NotificationModel
+    public class WishListModel : BaseEntity
     {
-        public string Message { get; set; } = string.Empty;
-        public bool IsRead { get; set; }
-        public DateTime SentAt { get; set; }
+        public ICollection<Product> Products { get; set; } = new List<Product>();
         public int UserId { get; set; }
         public User User { get; set; }
     }

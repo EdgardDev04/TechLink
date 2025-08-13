@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechLink.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99daa943f6db8c8ce81c3099f902ecac03930666")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdfb64713fda8f9163a68c5ec079ac586f456baf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechLink.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechLink.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
