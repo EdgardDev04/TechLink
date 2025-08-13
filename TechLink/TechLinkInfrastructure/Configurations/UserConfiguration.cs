@@ -31,7 +31,7 @@ namespace TechLink.Infrastructure.Configurations
             builder.HasOne(n => n.Role)
               .WithMany()
               .HasForeignKey(n => n.RoleId)
-              .OnDelete(DeleteBehavior.Cascade);
+              .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

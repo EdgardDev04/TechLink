@@ -12,7 +12,7 @@ using TechLink.Infrastructure.Data;
 namespace TechLink.Infrastructure.Migrations
 {
     [DbContext(typeof(TechLinkDbContext))]
-    [Migration("20250812152541_FirstMigration")]
+    [Migration("20250812235127_FirstMigration")]
     partial class FirstMigration
     {
         /// <inheritdoc />
@@ -671,7 +671,7 @@ namespace TechLink.Infrastructure.Migrations
                     b.HasOne("TechLink.Domain.Entities.Role", "Role")
                         .WithMany()
                         .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Role");
