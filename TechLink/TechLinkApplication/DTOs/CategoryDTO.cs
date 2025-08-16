@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechLink.Application.Interfaces
+namespace TechLink.Application.DTOs
 {
-    internal class Class1
+    internal class CategoryDTO
     {
     }
 }

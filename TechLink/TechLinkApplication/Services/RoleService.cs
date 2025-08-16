@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechLink.Application.DTOs
+namespace TechLink.Application.Services
 {
-    public class Class1
+    internal class RoleService
     {
     }
 }
