@@ -35,24 +35,24 @@ namespace TechLink.Application.Services
             await _repo.AddAsync(user);
         }
 
-        public Task<IEnumerable<User>> GetAllAsync()
+        public async Task<IEnumerable<User>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _repo.GetAllAsync();
         }
 
-        public Task<User?> GetByEmailAsync(string email)
+        public async Task<User?> GetByEmailAsync(string email)
         {
-            throw new NotImplementedException();
+            return await _repo.GetByEmailAsync(email);
         }
 
-        public Task<User?> GetByIdAsync(int id)
+        public async Task<User?> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _repo.GetByIdAsync(id);
         }
 
-        public Task<User?> GetByUsernameAsync(string username)
+        public async Task<User?> GetByUsernameAsync(string username)
         {
-            throw new NotImplementedException();
+            return await _repo.GetByUsernameAsync(username);
         }
 
         public async Task UpdateAsync(UserDTO dto)

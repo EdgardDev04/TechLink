@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using TechLink.Infrastructure.Data;
+
 namespace TechLink.Presentation
 {
     public class Program
@@ -8,6 +11,9 @@ namespace TechLink.Presentation
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<TechLinkDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("TechLinkConnection")));
 
             var app = builder.Build();
 

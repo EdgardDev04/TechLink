@@ -55,7 +55,7 @@ namespace TechLink.Infrastructure.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -499,9 +499,13 @@ namespace TechLink.Infrastructure.Migrations
 
             modelBuilder.Entity("TechLink.Domain.Entities.Address", b =>
                 {
-                    b.HasOne("TechLink.Domain.Entities.User", null)
+                    b.HasOne("TechLink.Domain.Entities.User", "User")
                         .WithMany("Addresses")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("TechLink.Domain.Entities.Cart", b =>

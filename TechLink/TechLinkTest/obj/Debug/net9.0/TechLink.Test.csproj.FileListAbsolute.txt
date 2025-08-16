@@ -97,8 +97,8 @@ E:\Project\TechLink\TechLink\TechLinkTest\obj\Debug\net9.0\refint\TechLink.Test.
 E:\Project\TechLink\TechLink\TechLinkTest\obj\Debug\net9.0\TechLink.Test.pdb
 E:\Project\TechLink\TechLink\TechLinkTest\obj\Debug\net9.0\TechLink.Test.genruntimeconfig.cache
 E:\Project\TechLink\TechLink\TechLinkTest\obj\Debug\net9.0\ref\TechLink.Test.dll
-D:\Project\TechLink\TechLink\TechLinkTest\bin\Debug\net9.0\testhost.exe
 D:\Project\TechLink\TechLink\TechLinkTest\bin\Debug\net9.0\testhost.dll
+D:\Project\TechLink\TechLink\TechLinkTest\bin\Debug\net9.0\testhost.exe
 D:\Project\TechLink\TechLink\TechLinkTest\bin\Debug\net9.0\xunit.runner.visualstudio.testadapter.dll
 D:\Project\TechLink\TechLink\TechLinkTest\bin\Debug\net9.0\xunit.runner.reporters.netcoreapp10.dll
 D:\Project\TechLink\TechLink\TechLinkTest\bin\Debug\net9.0\xunit.runner.utility.netcoreapp10.dll
