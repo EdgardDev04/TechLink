@@ -34,12 +34,7 @@ namespace TechLink.Application.Services
 
             await _repo.AddAsync(user);
         }
-
-        public async Task<IEnumerable<User>> GetAllAsync()
-        {
-            return await _repo.GetAllAsync();
-        }
-
+        
         public async Task<User?> GetByEmailAsync(string email)
         {
             return await _repo.GetByEmailAsync(email);
@@ -52,7 +47,14 @@ namespace TechLink.Application.Services
 
         public async Task<User?> GetByUsernameAsync(string username)
         {
-            return await _repo.GetByUsernameAsync(username);
+            var getbyusername= await _repo.GetByUsernameAsync(username);
+
+            if (getbyusername != null)
+            {
+                return null;
+            }
+
+            return getbyusername;
         }
 
         public async Task UpdateAsync(UserDTO dto)

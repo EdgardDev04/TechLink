@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TechLink.Application.DTOs
 {
-    internal class ShippingDTO
+    public class ShippingDTO
     {
+        public int Id {  get; set; }
+        public string Carrier { get; set; } = string.Empty;
+        public string TrackingNumber { get; set; } = string.Empty;
+        public DateTime ShippedDate { get; set; }
+        public DateTime EstimatedDelivery { get; set; }
     }
 }

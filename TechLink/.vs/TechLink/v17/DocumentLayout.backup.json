@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Project\\TechLink\\TechLink\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|d:\\project\\techlink\\techlink\\techlinkapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|d:\\project\\techlink\\techlink\\techlinkapplication\\dtos\\shippingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\shippingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|d:\\project\\techlink\\techlink\\techlinkapplication\\services\\shippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\services\\shippingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,19 +27,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShippingService.cs",
-              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\Services\\ShippingService.cs",
-              "RelativeDocumentMoniker": "TechLinkApplication\\Services\\ShippingService.cs",
-              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\Services\\ShippingService.cs",
-              "RelativeToolTip": "TechLinkApplication\\Services\\ShippingService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBUAAAAhAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Services\\UserService.cs",
+              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\Services\\UserService.cs",
+              "RelativeToolTip": "TechLinkApplication\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T21:33:22.296Z",
+              "WhenOpened": "2025-08-17T01:40:25.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShippingDTO.cs",
+              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\DTOs\\ShippingDTO.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\DTOs\\ShippingDTO.cs",
+              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\DTOs\\ShippingDTO.cs",
+              "RelativeToolTip": "TechLinkApplication\\DTOs\\ShippingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T01:26:24.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShippingService.cs",
+              "DocumentMoniker": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\Services\\ShippingService.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Services\\ShippingService.cs",
+              "ToolTip": "D:\\Project\\TechLink\\TechLink\\TechLinkApplication\\Services\\ShippingService.cs",
+              "RelativeToolTip": "TechLinkApplication\\Services\\ShippingService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwCIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T21:33:22.296Z",
+              "EditorCaption": ""
             }
           ]
         }

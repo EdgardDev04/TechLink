@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechLink.Application.DTOs;
+using TechLink.Domain.Entities;
 using TechLink.Domain.Interfaces;
 
 namespace TechLink.Application.Services
@@ -19,7 +20,7 @@ namespace TechLink.Application.Services
 
         public async Task AddAsync(ShippingDTO dto)
         {
-            var shipping = new Sh
+            var shipping = new Shipping();
 
             await _repo.AddAsync(shipping);
         }
