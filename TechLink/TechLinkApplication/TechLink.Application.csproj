@@ -10,4 +10,22 @@
     <ProjectReference Include="..\TechLinkDomain\TechLink.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Address\" />
+    <Folder Include="DTOs\Cart\" />
+    <Folder Include="DTOs\CartItem\" />
+    <Folder Include="DTOs\Category\" />
+    <Folder Include="DTOs\Coupon\" />
+    <Folder Include="DTOs\WishList\" />
+    <Folder Include="DTOs\User\" />
+    <Folder Include="DTOs\Shipping\" />
+    <Folder Include="DTOs\Role\" />
+    <Folder Include="DTOs\Review\" />
+    <Folder Include="DTOs\Product\" />
+    <Folder Include="DTOs\Payment\" />
+    <Folder Include="DTOs\OrderItem\" />
+    <Folder Include="DTOs\Order\" />
+    <Folder Include="DTOs\Notification\" />
+  </ItemGroup>
+
 </Project>
