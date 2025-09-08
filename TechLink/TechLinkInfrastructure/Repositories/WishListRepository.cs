@@ -25,10 +25,15 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(WishList entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.WishList.Remove(entity);
-            await _context.SaveChangesAsync();
+            var wishlist = await _context.WishList.FindAsync(id);
+
+            if (wishlist != null)
+            {
+                _context.WishList.Remove(wishlist);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<WishList>> GetAllAsync()

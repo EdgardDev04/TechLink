@@ -25,10 +25,14 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Review entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.Review.Remove(entity);
-            await _context.SaveChangesAsync();
+            var review = await _context.Review.FindAsync(id);
+            if (review != null)
+            {
+                _context.Review.Remove(review);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<Review>> GetAllAsync()

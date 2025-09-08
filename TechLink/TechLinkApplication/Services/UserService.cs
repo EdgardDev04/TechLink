@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechLink.Application.Dtos.User;
+using TechLink.Application.Dtos.User.Request;
 using TechLink.Application.DTOs;
 using TechLink.Domain.Entities;
 using TechLink.Domain.Interfaces;
@@ -17,7 +19,7 @@ namespace TechLink.Application.Services
             _repo = repo;
         }
 
-        public async Task AddAsync(UserDTO dto)
+        public async Task AddAsync(CreateUserRequestDto dto)
         {
             var user = new User
             {
@@ -27,9 +29,7 @@ namespace TechLink.Application.Services
                 Password = dto.Password,
                 RegisteredAt = DateTime.UtcNow,
                 LastLogin = DateTime.UtcNow,
-                RoleId = dto.RoleId,
-                Role = dto.Role,
-                Addresses = dto.Addresses
+                RoleId = dto.RoleId
             };
 
             await _repo.AddAsync(user);
@@ -37,32 +37,46 @@ namespace TechLink.Application.Services
         
         public async Task<User?> GetByEmailAsync(string email)
         {
-            return await _repo.GetByEmailAsync(email);
+            var user = await _repo.GetByEmailAsync(email);
+
+            if (user == null)
+            {
+                throw new Exception("User does not exist");
+            }
+
+            return user;
         }
 
         public async Task<User?> GetByIdAsync(int id)
         {
-            return await _repo.GetByIdAsync(id);
+            var user = await _repo.GetByIdAsync(id);
+
+            if (user == null)
+            {
+                throw new Exception("User does not exist");
+            }
+
+            return user;
         }
 
         public async Task<User?> GetByUsernameAsync(string username)
         {
-            var getbyusername= await _repo.GetByUsernameAsync(username);
+            var user= await _repo.GetByUsernameAsync(username);
 
-            if (getbyusername != null)
+            if (user == null)
             {
                 return null;
             }
 
-            return getbyusername;
+            return user;
         }
 
-        public async Task UpdateAsync(UserDTO dto)
+        public async Task UpdateAsync(UpdateUserRequestDto dto)
         {
             var user = new User
             {
                 UserName = dto.UserName,
-                ImageProfile = dto.ImageProfile,
+                ImageProfile = dto.ImageProfile
             };
 
             await _repo.UpdateAsync(user);

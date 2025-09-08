@@ -30,10 +30,14 @@ namespace TechLink.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task DeleteAsync(Coupon entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.Coupon.Add(entity);
-            await _context.SaveChangesAsync();
+            var coupon = await _context.Coupon.FindAsync(id);
+            if (coupon != null)
+            {
+                _context.Coupon.Remove(coupon);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<Coupon>> GetAllAsync()

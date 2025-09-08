@@ -25,10 +25,14 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Notification entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.Notification.Remove(entity);
-            await _context.SaveChangesAsync();
+            var notification = await _context.Notification.FindAsync(id);
+            if (notification != null)
+            {
+                _context.Notification.Remove(notification);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<Notification>> GetAllAsync()

@@ -25,10 +25,15 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Payment entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.Payment.Remove(entity);
-            await _context.SaveChangesAsync();  
+            var payment = await _context.Payment.FindAsync(id);
+
+            if (payment != null)
+            {
+                _context.Payment.Remove(payment);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<Payment>> GetAllAsync()

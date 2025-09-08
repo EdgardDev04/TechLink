@@ -24,10 +24,15 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Product entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.Product.Remove(entity);
-            await _context.SaveChangesAsync();
+            var product = await _context.Product.FindAsync(id);
+
+            if (product != null)
+            {
+                _context.Product.Remove(product);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<Product>> GetAllAsync()
@@ -61,7 +66,7 @@ namespace TechLink.Infrastructure.Repositories
         public async Task<IEnumerable<Product>> SearchAsync(string keyword)
         {
             var products = await _context.Product.
-                Where(p => p.Name.Contains(keyword) || p.Description.Contains(keyword)).ToListAsync();
+                Where(p => p.Name.Contains(keyword) || p.Brand.Contains(keyword) || p.Description.Contains(keyword)).ToListAsync();
 
             if (!products.Any())
             {

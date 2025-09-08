@@ -25,10 +25,14 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(CartItem entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.CartItem.Remove(entity);
-            await _context.SaveChangesAsync();
+            var cartItem = await _context.CartItem.FindAsync(id);
+            if (cartItem != null)
+            {
+                _context.CartItem.Remove(cartItem);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<CartItem>> GetAllAsync()

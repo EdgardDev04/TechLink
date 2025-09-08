@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {}
+    "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
+    "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
+        "projectUniqueName": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
         "projectName": "TechLink.Domain",
-        "projectPath": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
+        "projectPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
         "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\obj\\",
+        "outputPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
+    "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
+        "projectUniqueName": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
         "projectName": "TechLink.Infrastructure",
-        "projectPath": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
+        "projectPath": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\TechLink\\TechLink\\TechLinkInfrastructure\\obj\\",
+        "outputPath": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
-                "projectPath": "D:\\Project\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
+              "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
+                "projectPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
               }
             }
           }

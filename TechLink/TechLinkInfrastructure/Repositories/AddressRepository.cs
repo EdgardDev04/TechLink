@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using TechLink.Domain.Entities;
@@ -24,10 +25,15 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Address entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.Address.Remove(entity);
-            await _context.SaveChangesAsync();
+            var address = await _context.Address.FindAsync(id);
+
+            if (address != null)
+            {
+                _context.Address.Remove(address);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<Address>> GetAddressesByUserIdAsync(int userId)

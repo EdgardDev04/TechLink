@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechLink.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38bf166212f546cd16f4c3e9ddc7ba4f1ba8099f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66a1216794321a45f9b66325a2ccfbd6726d6e2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechLink.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechLink.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

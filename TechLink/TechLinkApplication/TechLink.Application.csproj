@@ -11,21 +11,35 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Address\" />
-    <Folder Include="DTOs\Cart\" />
-    <Folder Include="DTOs\CartItem\" />
-    <Folder Include="DTOs\Category\" />
-    <Folder Include="DTOs\Coupon\" />
-    <Folder Include="DTOs\WishList\" />
-    <Folder Include="DTOs\User\" />
-    <Folder Include="DTOs\Shipping\" />
-    <Folder Include="DTOs\Role\" />
-    <Folder Include="DTOs\Review\" />
-    <Folder Include="DTOs\Product\" />
-    <Folder Include="DTOs\Payment\" />
-    <Folder Include="DTOs\OrderItem\" />
-    <Folder Include="DTOs\Order\" />
-    <Folder Include="DTOs\Notification\" />
+    <Folder Include="Dtos\Address\Request\" />
+    <Folder Include="Dtos\Address\Response\" />
+    <Folder Include="Dtos\CartItem\Request\" />
+    <Folder Include="Dtos\CartItem\Response\" />
+    <Folder Include="Dtos\Cart\Request\" />
+    <Folder Include="Dtos\Cart\Response\" />
+    <Folder Include="Dtos\Category\Request\" />
+    <Folder Include="Dtos\Category\Response\" />
+    <Folder Include="Dtos\Coupon\Request\" />
+    <Folder Include="Dtos\Coupon\Response\" />
+    <Folder Include="Dtos\Notification\Request\" />
+    <Folder Include="Dtos\Notification\Response\" />
+    <Folder Include="Dtos\OrderItem\Request\" />
+    <Folder Include="Dtos\OrderItem\Response\" />
+    <Folder Include="Dtos\Order\Request\" />
+    <Folder Include="Dtos\Order\Response\" />
+    <Folder Include="Dtos\Payment\Request\" />
+    <Folder Include="Dtos\Payment\Response\" />
+    <Folder Include="Dtos\Product\Response\" />
+    <Folder Include="Dtos\Product\Request\" />
+    <Folder Include="Dtos\Review\Request\" />
+    <Folder Include="Dtos\Review\Response\" />
+    <Folder Include="Dtos\Role\Request\" />
+    <Folder Include="Dtos\Role\Response\" />
+    <Folder Include="Dtos\Shipping\Request\" />
+    <Folder Include="Dtos\Shipping\Response\" />
+    <Folder Include="Dtos\WishList\Request\" />
+    <Folder Include="Dtos\WishList\Response\" />
+    <Folder Include="Mappers\" />
   </ItemGroup>
 
 </Project>

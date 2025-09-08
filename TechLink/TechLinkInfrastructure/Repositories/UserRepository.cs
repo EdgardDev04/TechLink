@@ -25,10 +25,14 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(User entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.User.Remove(entity);
-            await _context.SaveChangesAsync();
+            var user = await _context.User.FindAsync(id);
+            if (user == null)
+            {
+                _context.User.Remove(user);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<User>> GetAllAsync()
@@ -36,36 +40,22 @@ namespace TechLink.Infrastructure.Repositories
             return await _context.User.ToListAsync();
         }
 
-        public Task<User?> GetByEmailAsync(string email)
+        public async Task<User?> GetByEmailAsync(string email)
         {
-            var emailExist = _context.User.FirstOrDefaultAsync(u => u.Email == email);
-
-            if (emailExist == null)
-            {
-                throw new Exception("User does not exist");
-            }
-            return emailExist;
+            var emailuser = await _context.User.FirstOrDefaultAsync(u => u.Email == email);
+            return emailuser;
         }
 
-        public Task<User?> GetByIdAsync(int id)
+        public async Task<User?> GetByIdAsync(int id)
         {
-            var userExist = _context.User.FirstOrDefaultAsync(u => u.Id == id);
-
-            if (userExist == null)
-            {
-                throw new Exception("User does not exist");
-            }
+            var userExist = await _context.User.FirstOrDefaultAsync(u => u.Id == id);
             return userExist;
         }
 
-        public Task<User?> GetByUsernameAsync(string username)
+        public async Task<User?> GetByUsernameAsync(string username)
         {
-            var usernameExist = _context.User.FirstOrDefaultAsync(u => u.UserName == username);
+            var usernameExist = await _context.User.FirstOrDefaultAsync(u => u.UserName == username);
 
-            if (usernameExist == null)
-            {
-                throw new Exception("User does not exist");
-            }
             return usernameExist;
         }
 

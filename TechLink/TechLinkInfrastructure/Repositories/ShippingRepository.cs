@@ -24,10 +24,14 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Shipping entity)
+        public async Task DeleteAsync(int id)
         {
-            _context.Shipping.Remove(entity);
-            await _context.SaveChangesAsync();
+            var shipping = await _context.Shipping.FindAsync(id);
+            if (shipping != null)
+            {
+                _context.Shipping.Remove(shipping);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<Shipping>> GetAllAsync()
