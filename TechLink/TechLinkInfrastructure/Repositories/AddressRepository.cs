@@ -25,6 +25,8 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        
+
         public async Task DeleteAsync(int id)
         {
             var address = await _context.Address.FindAsync(id);
@@ -36,7 +38,7 @@ namespace TechLink.Infrastructure.Repositories
             }
         }
 
-        public async Task<IEnumerable<Address>> GetAddressesByUserIdAsync(int userId)
+        public async Task<List<Address>> GetAddressesByUserIdAsync(int userId)
         {
             var userExists = await _context.User.AnyAsync(u => u.Id == userId);
             if (!userExists)
@@ -47,7 +49,7 @@ namespace TechLink.Infrastructure.Repositories
             return await _context.Address.Where(a => a.UserId == userId).ToListAsync();
         }
 
-        public async Task<IEnumerable<Address>> GetAllAsync()
+        public async Task<List<Address>> GetAllAsync()
         {
             return await _context.Address.ToListAsync();
         }
@@ -58,16 +60,29 @@ namespace TechLink.Infrastructure.Repositories
 
             if (addressExist == null)
             {
-                throw new Exception("address does not exist");
+                throw new KeyNotFoundException($"Address with ID {id} was not found.");
             }
 
             return addressExist;
         }
 
-        public async Task UpdateAsync(Address entity)
+        public async Task UpdateAsync(int id, Address entity)
         {
-            _context.Address.Update(entity);
+            var address = await _context.Address.FirstOrDefaultAsync(u => u.Id == id);
+
+            if (address == null)
+            {
+                throw new KeyNotFoundException($"Address with ID {id} was not found.");
+            }
+
+            address.Street = entity.Street;
+            address.City = entity.City;
+            address.StateOrProvince = entity.StateOrProvince;
+            address.PostalCode = entity.PostalCode;
+            address.Country = entity.Country;
+
             await _context.SaveChangesAsync();
         }
+
     }
 }

@@ -29,8 +29,6 @@
     <Folder Include="Dtos\Order\Response\" />
     <Folder Include="Dtos\Payment\Request\" />
     <Folder Include="Dtos\Payment\Response\" />
-    <Folder Include="Dtos\Product\Response\" />
-    <Folder Include="Dtos\Product\Request\" />
     <Folder Include="Dtos\Review\Request\" />
     <Folder Include="Dtos\Review\Response\" />
     <Folder Include="Dtos\Role\Request\" />
@@ -39,7 +37,6 @@
     <Folder Include="Dtos\Shipping\Response\" />
     <Folder Include="Dtos\WishList\Request\" />
     <Folder Include="Dtos\WishList\Response\" />
-    <Folder Include="Mappers\" />
   </ItemGroup>
 
 </Project>

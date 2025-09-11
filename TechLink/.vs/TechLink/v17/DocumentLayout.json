@@ -1,66 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TechLink\\TechLink\\",
+  "WorkspaceRootPath": "E:\\TechLink\\TechLink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|d:\\techlink\\techlink\\techlinkapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\techlink\\techlink\\techlinkdomain\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\techlink\\techlink\\techlinkdomain\\interfaces\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\interfaces\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|d:\\techlink\\techlink\\techlinkapplication\\dtos\\user\\request\\createuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\user\\request\\createuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|e:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|e:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\couponrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\couponrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|d:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\shippingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\shippingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\techlink\\techlink\\techlinkdomain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,206 +34,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkApplication\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TechLinkApplication\\Services\\UserService.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkApplication\\Services\\UserService.cs",
-              "RelativeToolTip": "TechLinkApplication\\Services\\UserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwv1IAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T00:03:58.573Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateUserRequestDto.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\User\\Request\\CreateUserRequestDto.cs",
-              "RelativeDocumentMoniker": "TechLinkApplication\\Dtos\\User\\Request\\CreateUserRequestDto.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\User\\Request\\CreateUserRequestDto.cs",
-              "RelativeToolTip": "TechLinkApplication\\Dtos\\User\\Request\\CreateUserRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T00:00:22.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AddressRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
               "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
               "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:59:34.166Z",
+              "WhenOpened": "2025-09-11T20:13:46.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItemRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IAddressRepository.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\IAddressRepository.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Interfaces\\IAddressRepository.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\IAddressRepository.cs",
+              "RelativeToolTip": "TechLinkDomain\\Interfaces\\IAddressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:59:06.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\CartRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\CartRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:58:30.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:58:04.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CouponRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CouponRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\CouponRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CouponRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\CouponRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:57:43.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NotificationRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\NotificationRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\NotificationRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\NotificationRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\NotificationRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:57:01.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\OrderItemRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:56:35.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\OrderRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowBsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:55:49.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaymentRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\PaymentRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\PaymentRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\PaymentRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\PaymentRepository.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwCEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:39:03.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\ReviewRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\ReviewRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\ReviewRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\ReviewRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:20:30.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ShippingRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\ShippingRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\ShippingRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\ShippingRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\ShippingRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:15:32.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WishListRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\WishListRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\WishListRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\WishListRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\WishListRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowB8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:14:01.403Z",
+              "WhenOpened": "2025-09-11T20:13:04.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Title": "ICartItemRepository.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
+              "RelativeToolTip": "TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:10:58.675Z",
+              "WhenOpened": "2025-09-11T20:08:11.42Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Mappers\\ProductMapper.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\ProductMapper.cs",
+              "RelativeToolTip": "TechLinkApplication\\Mappers\\ProductMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T20:28:37.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItemRepository.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
+              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
+              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T20:03:40.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkDomain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Entities\\CartItem.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkDomain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "TechLinkDomain\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T20:03:34.183Z"
             }
           ]
         }

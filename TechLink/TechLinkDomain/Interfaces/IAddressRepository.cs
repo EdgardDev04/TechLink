@@ -9,6 +9,6 @@ namespace TechLink.Domain.Interfaces
 {
     public interface IAddressRepository : IRepository<Address>
     {
-        Task<IEnumerable<Address>> GetAddressesByUserIdAsync(int userId);
+        Task<List<Address>> GetAddressesByUserIdAsync(int userId);
     }
 }

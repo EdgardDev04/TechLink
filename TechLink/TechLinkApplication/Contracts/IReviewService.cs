@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TechLink.Application.Contracts
 {
-    internal class IReviewService
+    public interface IReviewService
     {
     }
 }

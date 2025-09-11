@@ -9,8 +9,8 @@ namespace TechLink.Domain.Interfaces
 {
     public interface IProductRepository : IRepository<Product>
     {
-        Task<IEnumerable<Product>> GetByCategoryIdAsync(int categoryId);
-        Task<IEnumerable<Product>> SearchAsync(string keyword);
+        Task<List<Product>> GetByCategoryIdAsync(int categoryId);
+        Task<List<Product>> SearchAsync(string keyword);
     }
 
 }

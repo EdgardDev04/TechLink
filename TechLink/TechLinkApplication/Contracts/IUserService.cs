@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TechLink.Application.Interfaces
 {
-    internal class IUserService
+    public interface IUserService
     {
     }
 }

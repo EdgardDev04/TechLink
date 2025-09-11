@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using TechLink.Application.Dtos.User;
 using TechLink.Application.Dtos.User.Request;
-using TechLink.Application.DTOs;
+using TechLink.Application.Dtos.User.Response;
 using TechLink.Domain.Entities;
 using TechLink.Domain.Interfaces;
 
@@ -13,13 +14,15 @@ namespace TechLink.Application.Services
 {
     public class UserService 
     {
+        private readonly IMapper _mapper;
         private readonly IUserRepository _repo;
-        public UserService(IUserRepository repo)
+        public UserService(IUserRepository repo, IMapper mapper)
         {
             _repo = repo;
+            _mapper = mapper;
         }
 
-        public async Task AddAsync(CreateUserRequestDto dto)
+        public async Task AddAsync(CreateUserDto dto)
         {
             var user = new User
             {
@@ -35,7 +38,7 @@ namespace TechLink.Application.Services
             await _repo.AddAsync(user);
         }
         
-        public async Task<User?> GetByEmailAsync(string email)
+        public async Task<GetUserByEmailResponseDto> GetByEmailAsync(string email)
         {
             var user = await _repo.GetByEmailAsync(email);
 
@@ -44,10 +47,11 @@ namespace TechLink.Application.Services
                 throw new Exception("User does not exist");
             }
 
-            return user;
+            return _mapper.Map<GetUserByEmailResponseDto>(user);
+
         }
 
-        public async Task<User?> GetByIdAsync(int id)
+        public async Task<GetUserByIdResponseDto?> GetByIdAsync(int id)
         {
             var user = await _repo.GetByIdAsync(id);
 
@@ -56,10 +60,13 @@ namespace TechLink.Application.Services
                 throw new Exception("User does not exist");
             }
 
-            return user;
+            return new GetUserByIdResponseDto
+            {
+                UserName = user.UserName
+            };
         }
 
-        public async Task<User?> GetByUsernameAsync(string username)
+        public async Task<GetUserByUsernameResponseDto?> GetByUsernameAsync(string username)
         {
             var user= await _repo.GetByUsernameAsync(username);
 
@@ -68,10 +75,13 @@ namespace TechLink.Application.Services
                 return null;
             }
 
-            return user;
+            return new GetUserByUsernameResponseDto
+            {
+                Username = user.UserName
+            };
         }
 
-        public async Task UpdateAsync(UpdateUserRequestDto dto)
+        public async Task UpdateAsync(UpdateUserDto dto)
         {
             var user = new User
             {

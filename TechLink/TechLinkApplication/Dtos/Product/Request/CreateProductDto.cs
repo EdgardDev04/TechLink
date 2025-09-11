@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using TechLink.Domain.Entities;
 using TechLink.Domain.Enums;
 
-namespace TechLink.Application.Dtos.Product
+namespace TechLink.Application.Dtos.Product.Request
 {
     public class CreateProductDto
     {

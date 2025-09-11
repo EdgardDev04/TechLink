@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TechLink.Application.Dtos.Product;
+using TechLink.Application.Dtos.Product.Request;
+using TechLink.Application.Dtos.Product.Response;
 using TechLink.Application.Dtos.User;
 using TechLink.Application.DTOs;
 using TechLink.Domain.Entities;
@@ -59,11 +60,11 @@ namespace TechLink.Application.Services
             }); 
         }
 
-        public async Task<IEnumerable<GetByCategoryIdDto>> GetByCategoryIdAsync(int categoryId)
+        public async Task<IEnumerable<GetProductByCategoryIdDto>> GetByCategoryIdAsync(int categoryId)
         {
             var productAll = await _repo.GetByCategoryIdAsync(categoryId);
 
-            return productAll.Select(p => new GetByCategoryIdDto
+            return productAll.Select(p => new GetProductByCategoryIdDto
             {
                 Name = p.Name,
                 Description = p.Description,

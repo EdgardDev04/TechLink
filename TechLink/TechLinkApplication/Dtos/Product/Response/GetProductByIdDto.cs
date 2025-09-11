@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechLink.Application.Dtos.Product
+namespace TechLink.Application.Dtos.Product.Response
 {
-    public class GetByCategoryIdDto
+    public class GetProductByIdDto
     {
         public string Name { get; set; }
-        public string Description { get; set; }
-        public string Image { get; set; }
     }
 }

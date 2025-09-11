@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechLink.Application.Exceptions
+namespace TechLink.Application.Mappers
 {
-    internal class Class1
+    internal class CouponMapper
     {
     }
 }

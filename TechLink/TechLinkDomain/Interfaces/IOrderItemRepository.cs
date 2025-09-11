@@ -9,6 +9,6 @@ namespace TechLink.Domain.Interfaces
 {
     public interface IOrderItemRepository : IRepository<OrderItem>
     {
-        Task<IEnumerable<OrderItem>> GetItemsByOrderIdAsync(int orderId);
+        Task<List<OrderItem>> GetItemsByOrderIdAsync(int orderId);
     }
 }

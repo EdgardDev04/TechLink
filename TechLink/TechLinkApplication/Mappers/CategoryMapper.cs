@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechLink.Application.Dtos.Product
+namespace TechLink.Application.Mappers
 {
-    public class GetProductByIdDto
+    internal class CategoryMapper
     {
-        public string Name { get; set; }
     }
 }

@@ -28,16 +28,12 @@ namespace TechLink.Infrastructure.Repositories
         public async Task DeleteAsync(int id)
         {
             var cartItem = await _context.CartItem.FindAsync(id);
+
             if (cartItem != null)
             {
                 _context.CartItem.Remove(cartItem);
                 await _context.SaveChangesAsync();
             }
-        }
-
-        public async Task<IEnumerable<CartItem>> GetAllAsync()
-        {
-            return await _context.CartItem.ToListAsync();
         }
 
         public Task<CartItem?> GetByIdAsync(int id)
@@ -52,9 +48,27 @@ namespace TechLink.Infrastructure.Repositories
             return cartitemExist;
         }
 
-        public async Task<IEnumerable<CartItem>> GetItemsByCartIdAsync(int cartId)
+        public async Task UpdateAsync(int id, CartItem entity)
         {
-            var cartExist = await _context .Cart.AnyAsync(u => u.Id == cartId);
+            var cartItem = await _context.CartItem.FirstOrDefaultAsync(u => u.Id == id);
+
+            if (cartItem == null)
+            {
+                throw new Exception();
+            }
+
+            cartItem.Quantity = entity.Quantity;   
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<List<CartItem>> GetAllAsync()
+        {
+            return await _context.CartItem.ToListAsync();
+        }
+
+        public async Task<List<CartItem>> GetItemsByCartIdAsync(int cartId)
+        {
+            var cartExist = await _context.Cart.AnyAsync(u => u.Id == cartId);
 
             if (!cartExist)
             {
@@ -64,10 +78,14 @@ namespace TechLink.Infrastructure.Repositories
             return await _context.CartItem.Where(c => c.CartId == cartId).ToListAsync();
         }
 
-        public async Task UpdateAsync(CartItem entity)
+        public Task AddAsync(int cartId, int productId, CartItem entity)
         {
-            _context.CartItem.Update(entity);
-            await _context.SaveChangesAsync();
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(int cartId, int productId, CartItem entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

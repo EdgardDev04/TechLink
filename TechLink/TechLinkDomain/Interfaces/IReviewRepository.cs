@@ -9,6 +9,6 @@ namespace TechLink.Domain.Interfaces
 {
     public interface IReviewRepository : IRepository<Review>
     {
-        Task<IEnumerable<Review>> GetByProductIdAsync(int productId);
+        Task<List<Review>> GetByProductIdAsync(int productId);
     }
 }

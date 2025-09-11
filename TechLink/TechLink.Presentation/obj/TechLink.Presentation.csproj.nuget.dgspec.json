@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {}
+    "E:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {
+    "E:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
+        "projectUniqueName": "E:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
         "projectName": "TechLink.Presentation",
-        "projectPath": "D:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "D:\\TechLink\\TechLink\\TechLink.Presentation\\obj\\",
+        "projectPath": "E:\\TechLink\\TechLink\\TechLink.Presentation\\TechLink.Presentation.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "E:\\TechLink\\TechLink\\TechLink.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj": {
-                "projectPath": "D:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj"
+              "E:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj": {
+                "projectPath": "E:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj"
               },
-              "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
-                "projectPath": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj"
+              "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
+                "projectPath": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj"
               }
             }
           }
@@ -83,24 +83,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj": {
+    "E:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
+        "projectUniqueName": "E:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
         "projectName": "TechLink.Application",
-        "projectPath": "D:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "D:\\TechLink\\TechLink\\TechLinkApplication\\obj\\",
+        "projectPath": "E:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "E:\\TechLink\\TechLink\\TechLinkApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,8 +115,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
-                "projectPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
+              "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
+                "projectPath": "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
               }
             }
           }
@@ -152,24 +152,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
+    "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
+        "projectUniqueName": "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
         "projectName": "TechLink.Domain",
-        "projectPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\obj\\",
+        "projectPath": "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "E:\\TechLink\\TechLink\\TechLinkDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -217,24 +217,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
+    "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
+        "projectUniqueName": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
         "projectName": "TechLink.Infrastructure",
-        "projectPath": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-        "outputPath": "D:\\TechLink\\TechLink\\TechLinkInfrastructure\\obj\\",
+        "projectPath": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\TechLink.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -249,8 +249,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
-                "projectPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
+              "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
+                "projectPath": "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
               }
             }
           }
@@ -308,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TechLink.Application.Contracts
 {
-    internal class IShippingService
+    public interface IShippingService
     {
     }
 }

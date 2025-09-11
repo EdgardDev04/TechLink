@@ -8,6 +8,6 @@ namespace TechLink.Application.Dtos.User.Response
 {
     public class GetUserByIdResponseDto
     {
-        public string 
+        public string UserName { get; set; }
     }
 }

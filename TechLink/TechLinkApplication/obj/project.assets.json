@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\edgar\\.nuget\\packages\\": {},
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
+      "projectUniqueName": "E:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
       "projectName": "TechLink.Application",
-      "projectPath": "D:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
-      "packagesPath": "C:\\Users\\edgar\\.nuget\\packages\\",
-      "outputPath": "D:\\TechLink\\TechLink\\TechLinkApplication\\obj\\",
+      "projectPath": "E:\\TechLink\\TechLink\\TechLinkApplication\\TechLink.Application.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "E:\\TechLink\\TechLink\\TechLinkApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -58,8 +58,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
-              "projectPath": "D:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
+            "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj": {
+              "projectPath": "E:\\TechLink\\TechLink\\TechLinkDomain\\TechLink.Domain.csproj"
             }
           }
         }
@@ -95,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

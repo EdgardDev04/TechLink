@@ -9,7 +9,7 @@ namespace TechLink.Domain.Interfaces
 {
     public interface INotificationRepository : IRepository<Notification>
     {
-        Task<IEnumerable<Notification>> GetUnreadByUserIdAsync(int userId);
+        Task<List<Notification>> GetUnreadByUserIdAsync(int userId);
     }
 
 }
