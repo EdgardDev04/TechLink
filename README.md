@@ -12,7 +12,7 @@ Carrito de Compras: Funcionalidad para agregar, modificar y eliminar productos a
 
 Procesamiento de Pedidos: Creación y gestión de pedidos con opciones de pago y seguimiento de envíos.
 
-Cupones y Descuentos: Aplicación de códigos promocionales en compras. Reseñas y
+Cupones y Descuentos: Aplicación de códigos promocionales en compras. 
 
 Valoraciones: Los clientes pueden dejar comentarios y calificar los productos.
 
