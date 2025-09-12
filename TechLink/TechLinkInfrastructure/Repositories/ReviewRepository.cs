@@ -40,6 +40,11 @@ namespace TechLink.Infrastructure.Repositories
             return await _context.Review.ToListAsync();
         }
 
+        public Task<double> GetAverageRatingForProductAsync(int productId)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<Review?> GetByIdAsync(int id)
         {
             var getReview = _context.Review.FirstOrDefaultAsync(u => u.Id == id);
@@ -49,6 +54,11 @@ namespace TechLink.Infrastructure.Repositories
                 throw new Exception("Review does not exist");
             }
             return getReview;
+        }
+
+        public Task<List<Review>> GetByProductAndRatingAsync(int productId, int rating)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Review>> GetByProductIdAsync(int productId)
@@ -63,10 +73,35 @@ namespace TechLink.Infrastructure.Repositories
             return getReview;
         }
 
+        public Task<List<Review>> GetByUserIdAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> GetReviewCountForProductAsync(int productId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(Review entity)
         {
             _context.Review.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        public Task<bool> UserHasReviewedProductAsync(int userId, int productId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<Review>> IReviewRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<Review>> IReviewRepository.GetByProductIdAsync(int productId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

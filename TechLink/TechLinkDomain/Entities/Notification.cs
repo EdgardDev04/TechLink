@@ -14,7 +14,7 @@ namespace TechLink.Domain.Entities
         [Required]
         public string Message { get; set; } = string.Empty;
         public bool IsRead { get; set; }
-        public DateTime SentAt { get; set; }
+        public DateOnly SentAt { get; set; }
 
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }

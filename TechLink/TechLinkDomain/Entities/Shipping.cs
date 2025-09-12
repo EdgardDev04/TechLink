@@ -11,7 +11,7 @@ namespace TechLink.Domain.Entities
     {
         public string Carrier { get; set; } = string.Empty;
         public string TrackingNumber { get; set; } = string.Empty;
-        public DateTime ShippedDate { get; set; }
-        public DateTime EstimatedDelivery { get; set; }
+        public DateOnly ShippedDate { get; set; }
+        public DateOnly EstimatedDelivery { get; set; }
     }
 }

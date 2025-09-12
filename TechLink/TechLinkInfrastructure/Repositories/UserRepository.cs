@@ -25,6 +25,11 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public Task<User> AuthenticateAsync(string email, string passwordHash)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task DeleteAsync(int id)
         {
             var user = await _context.User.FindAsync(id);
@@ -33,6 +38,21 @@ namespace TechLink.Infrastructure.Repositories
                 _context.User.Remove(user);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        public Task<bool> ExistsByEmailAsync(string email)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> ExistsByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> ExistsByUserNameAsync(string userName)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<User>> GetAllAsync()
@@ -59,10 +79,40 @@ namespace TechLink.Infrastructure.Repositories
             return usernameExist;
         }
 
+        public Task<User> GetByUserNameAsync(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<User> GetUserWithAddressesAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<User> GetUserWithRolesAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(User entity)
         {
             _context.User.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        public Task UpdateLastLoginAsync(int id, DateTime lastLogin)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdatePasswordAsync(int id, string newPasswordHash)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<User>> IUserRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

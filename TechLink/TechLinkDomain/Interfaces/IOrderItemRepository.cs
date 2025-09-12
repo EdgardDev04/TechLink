@@ -7,8 +7,13 @@ using TechLink.Domain.Entities;
 
 namespace TechLink.Domain.Interfaces
 {
-    public interface IOrderItemRepository : IRepository<OrderItem>
+    public interface IOrderItemRepository
     {
-        Task<List<OrderItem>> GetItemsByOrderIdAsync(int orderId);
+        Task<OrderItem> GetByIdAsync(int id);
+        Task<List<OrderItem>> GetByOrderIdAsync(int orderId);
+        Task<List<OrderItem>> GetAllAsync();
+        Task AddAsync(OrderItem orderItem);
+        Task UpdateAsync(OrderItem orderItem);
+        Task DeleteAsync(int id);
     }
 }

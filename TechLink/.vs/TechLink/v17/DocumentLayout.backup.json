@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "E:\\TechLink\\TechLink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\techlink\\techlink\\techlinkdomain\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\users\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\techlink\\techlink\\techlinkdomain\\interfaces\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\interfaces\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|e:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\addressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\dtos\\users\\request\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\users\\request\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\techlink\\techlink\\techlinkdomain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|e:\\techlink\\techlink\\techlinkinfrastructure\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5AFE4F4-7A0D-4901-9F2E-F009B1EBE703}|TechLinkInfrastructure\\TechLink.Infrastructure.csproj|solutionrelative:techlinkinfrastructure\\repositories\\cartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\mappers\\addressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\mappers\\addressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|e:\\techlink\\techlink\\techlinkdomain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3561C687-8ED7-4C30-B00B-B7B17112BE26}|TechLinkDomain\\TechLink.Domain.csproj|solutionrelative:techlinkdomain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\dtos\\addresses\\request\\createaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\addresses\\request\\createaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\dtos\\addresses\\request\\updateaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\addresses\\request\\updateaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|e:\\techlink\\techlink\\techlinkapplication\\dtos\\addresses\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1DEA99-498C-4EB5-96B7-64E958F8A547}|TechLinkApplication\\TechLink.Application.csproj|solutionrelative:techlinkapplication\\dtos\\addresses\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\UserMapper.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Mappers\\UserMapper.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\UserMapper.cs",
+              "RelativeToolTip": "TechLinkApplication\\Mappers\\UserMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T19:56:30.884Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Addresses\\AddressDto.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Dtos\\Addresses\\AddressDto.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Addresses\\AddressDto.cs",
+              "RelativeToolTip": "TechLinkApplication\\Dtos\\Addresses\\AddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T20:40:23.583Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -51,77 +85,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddressRepository.cs",
-              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\AddressRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Users\\Request\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Dtos\\Users\\Request\\CreateUserDto.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Users\\Request\\CreateUserDto.cs",
+              "RelativeToolTip": "TechLinkApplication\\Dtos\\Users\\Request\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:13:46.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T20:53:38.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IAddressRepository.cs",
-              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\IAddressRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkDomain\\Interfaces\\IAddressRepository.cs",
-              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\IAddressRepository.cs",
-              "RelativeToolTip": "TechLinkDomain\\Interfaces\\IAddressRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UpdateAddressDto.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Addresses\\Request\\UpdateAddressDto.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Dtos\\Addresses\\Request\\UpdateAddressDto.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Addresses\\Request\\UpdateAddressDto.cs",
+              "RelativeToolTip": "TechLinkApplication\\Dtos\\Addresses\\Request\\UpdateAddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:13:04.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICartItemRepository.cs",
-              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
-              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
-              "RelativeToolTip": "TechLinkDomain\\Interfaces\\ICartItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:08:11.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductMapper.cs",
-              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\ProductMapper.cs",
-              "RelativeDocumentMoniker": "TechLinkApplication\\Mappers\\ProductMapper.cs",
-              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\ProductMapper.cs",
-              "RelativeToolTip": "TechLinkApplication\\Mappers\\ProductMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:28:37.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItemRepository.cs",
-              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "RelativeDocumentMoniker": "TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "RelativeToolTip": "TechLinkInfrastructure\\Repositories\\CartItemRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:03:40.43Z"
+              "WhenOpened": "2025-09-12T20:47:58.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkDomain\\Entities\\CartItem.cs",
-              "RelativeDocumentMoniker": "TechLinkDomain\\Entities\\CartItem.cs",
-              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkDomain\\Entities\\CartItem.cs",
-              "RelativeToolTip": "TechLinkDomain\\Entities\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreateAddressDto.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Addresses\\Request\\CreateAddressDto.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Dtos\\Addresses\\Request\\CreateAddressDto.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Addresses\\Request\\CreateAddressDto.cs",
+              "RelativeToolTip": "TechLinkApplication\\Dtos\\Addresses\\Request\\CreateAddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T20:03:34.183Z"
+              "WhenOpened": "2025-09-12T20:47:28.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressMapper.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\AddressMapper.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Mappers\\AddressMapper.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Mappers\\AddressMapper.cs",
+              "RelativeToolTip": "TechLinkApplication\\Mappers\\AddressMapper.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T20:41:15.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkDomain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TechLinkDomain\\Entities\\User.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkDomain\\Entities\\User.cs",
+              "RelativeToolTip": "TechLinkDomain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T20:38:34.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Users\\UserDto.cs",
+              "RelativeDocumentMoniker": "TechLinkApplication\\Dtos\\Users\\UserDto.cs",
+              "ToolTip": "E:\\TechLink\\TechLink\\TechLinkApplication\\Dtos\\Users\\UserDto.cs",
+              "RelativeToolTip": "TechLinkApplication\\Dtos\\Users\\UserDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T20:32:10.162Z",
+              "EditorCaption": ""
             }
           ]
         }

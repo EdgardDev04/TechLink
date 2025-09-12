@@ -30,13 +30,16 @@ namespace TechLink.Domain.Entities
         public StatusProduct State {  get; set; }
 
         [Required]
+        public ConditionProduct Condition { get; set; }
+
+        [Required]
         [Range(0.01, double.MaxValue, ErrorMessage = "Price must be greater than 0.")]
         public decimal Price { get; set; }
 
         [Required]
         [Range(0, int.MaxValue, ErrorMessage = "Stock cannot be negative.")]
         public int Stock { get; set; }
-        public ICollection<Review> Reviews { get; set; } = new List<Review>();
+        public List<Review> Reviews { get; set; } = new List<Review>();
 
         [ForeignKey(nameof(Category))]
         public int CategoryId { get; set; }

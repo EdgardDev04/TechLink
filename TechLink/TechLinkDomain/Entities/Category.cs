@@ -11,7 +11,7 @@ namespace TechLink.Domain.Entities
     public class Category : BaseEntity
     {
         public CategoryType Name { get; set; }
-        public ICollection<Product> Products { get; set; } = new List<Product>();
+        public List<Product> Products { get; set; } = new List<Product>();
     }
 }
 

@@ -25,6 +25,11 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public Task AddProductToWishListAsync(int wishListId, int productId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task DeleteAsync(int id)
         {
             var wishlist = await _context.WishList.FindAsync(id);
@@ -34,6 +39,16 @@ namespace TechLink.Infrastructure.Repositories
                 _context.WishList.Remove(wishlist);
                 await _context.SaveChangesAsync();
             }
+        }
+
+        public Task<bool> ExistsByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> ExistsByUserIdAsync(int userId)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<WishList>> GetAllAsync()
@@ -63,10 +78,30 @@ namespace TechLink.Infrastructure.Repositories
             return wishlExist;
         }
 
+        public Task<List<Product>> GetProductsByWishListIdAsync(int wishListId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> IsProductInWishListAsync(int wishListId, int productId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task RemoveProductFromWishListAsync(int wishListId, int productId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(WishList entity)
         {
             _context.WishList.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<WishList>> IWishListRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

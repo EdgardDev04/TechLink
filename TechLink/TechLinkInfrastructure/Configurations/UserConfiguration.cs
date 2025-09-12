@@ -28,10 +28,15 @@ namespace TechLink.Infrastructure.Configurations
 
             builder.Property(u => u.LastLogin);
 
-            builder.HasOne(n => n.Role)
-              .WithMany()
-              .HasForeignKey(n => n.RoleId)
-              .OnDelete(DeleteBehavior.Restrict);
+            builder.HasMany(u => u.Addresses)
+                .WithOne(a => a.User)
+                .HasForeignKey(a => a.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+           builder.HasOne(u => u.Role)
+                .WithOne(r => r.User)
+                .HasForeignKey<Role>(r => r.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

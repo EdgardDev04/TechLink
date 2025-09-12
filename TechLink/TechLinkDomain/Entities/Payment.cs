@@ -13,7 +13,7 @@ namespace TechLink.Domain.Entities
     {
         public decimal Amount { get; set; }
         public string PaymentMethod { get; set; } = string.Empty;
-        public DateTime PaidAt { get; set; }
+        public DateOnly PaidAt { get; set; }
         public bool IsSuccessful { get; set; }
 
         [ForeignKey(nameof(Order))]

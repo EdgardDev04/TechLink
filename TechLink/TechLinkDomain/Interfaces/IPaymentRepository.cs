@@ -7,8 +7,17 @@ using TechLink.Domain.Entities;
 
 namespace TechLink.Domain.Interfaces
 {
-    public interface IPaymentRepository : IRepository<Payment>
+    public interface IPaymentRepository
     {
-        Task<Payment?> GetPaymentByOrderIdAsync(int orderId);
+        Task<Payment> GetByIdAsync(int id);
+        Task<List<Payment>> GetByOrderIdAsync(int orderId);
+        Task<List<Payment>> GetAllAsync();
+        Task AddAsync(Payment payment);
+        Task UpdateAsync(Payment payment);
+        Task DeleteAsync(int id);
+        Task<List<Payment>> GetPaymentsByStatusAsync(bool isSuccessful);
+        Task<List<Payment>> GetPaymentsByDateRangeAsync(DateTime from, DateTime to);
+        Task<bool> PaymentExistsAsync(int orderId, decimal amount, DateTime paidAt);
     }
+
 }

@@ -11,7 +11,7 @@ namespace TechLink.Domain.Entities
 {
     public class Cart : BaseEntity
     {
-        public ICollection<CartItem> Items { get; set; } = new List<CartItem>();
+        public List<CartItem> Items { get; set; } = new List<CartItem>();
         public DateTime CreatedAt { get; set; }
 
         [ForeignKey(nameof(User))]

@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TechLink.Application.DTOs;
-using TechLink.Domain.Entities;
+﻿using TechLink.Application.Contracts;
+using TechLink.Application.Dtos.Shipping.Request;
+using TechLink.Application.Dtos.Shipping.Response;
 using TechLink.Domain.Interfaces;
 
 namespace TechLink.Application.Services
 {
-    public class ShippingService 
+    public class ShippingService : IShippingService
     {
         private readonly IShippingRepository _repo;
 
@@ -18,34 +14,62 @@ namespace TechLink.Application.Services
             _repo = repo;
         }
 
-        public async Task AddAsync(ShippingDTO dto)
-        {
-            var shipping = new Shipping();
-
-            await _repo.AddAsync(shipping);
-        }
-
-        public Task DeleteAsync(ShippingDTO dto)
+        public Task AssignShippingToOrderAsync(int orderId, int shippingId)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<ShippingDTO>> GetAllAsync()
+        public Task<decimal> CalculateShippingCostAsync(ShippingCalculationRequestDto request)
         {
-            return await _repo.GetAllAsync();
+            throw new NotImplementedException();
         }
 
-        public async Task<ShippingDTO?> GetByIdAsync(int id)
+        public Task<int> CreateAsync(CreateShippingDto dto)
         {
-            return await _repo.GetByIdAsync(id);
+            throw new NotImplementedException();
         }
 
-        public async Task<ShippingDTO?> GetByTrackingNumberAsync(string trackingNumber)
+        public Task DeleteAsync(int id)
         {
-            return await _repo.GetByTrackingNumberAsync(trackingNumber);
+            throw new NotImplementedException();
         }
 
-        public Task UpdateAsync(ShippingDTO dto)
+        public Task<DateTime> EstimateDeliveryDateAsync(ShippingEstimationRequestDto request)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetAllShippingDto>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GetShippingByIdDto> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetShipmentsByCarrierDto>> GetShipmentsByCarrierAsync(string carrier)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GetShippingByOrderIdDto> GetShippingByOrderIdAsync(int orderId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> TrackShipmentAsync(int shippingId, out string trackingInfo)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(int id, UpdateShippingDto dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateShippingStatusAsync(int shippingId, string status)
         {
             throw new NotImplementedException();
         }

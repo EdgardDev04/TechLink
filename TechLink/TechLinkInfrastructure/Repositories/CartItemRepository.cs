@@ -87,5 +87,25 @@ namespace TechLink.Infrastructure.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public Task<List<CartItem>> GetByCartIdAsync(int cartId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(CartItem cartItem)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> ExistsAsync(int cartId, int productId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<CartItem> GetByCartIdAndProductIdAsync(int cartId, int productId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

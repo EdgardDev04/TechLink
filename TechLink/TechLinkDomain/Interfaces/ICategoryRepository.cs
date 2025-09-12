@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechLink.Domain.Entities;
+using TechLink.Domain.Enums;
 
 namespace TechLink.Domain.Interfaces
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository 
     {
-        Task<List<Product>> GetProductsByCategoryIdAsync(int categoryId);
+        Task<Category> GetByIdAsync(int id);
+        Task<List<Category>> GetAllAsync();
+        Task AddAsync(Category category);
+        Task UpdateAsync(Category category);
+        Task DeleteAsync(int id);
+        Task<Category> GetByNameAsync(CategoryType name);
     }
 
 }

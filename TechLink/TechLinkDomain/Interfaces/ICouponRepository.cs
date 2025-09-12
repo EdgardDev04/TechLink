@@ -7,10 +7,16 @@ using TechLink.Domain.Entities;
 
 namespace TechLink.Domain.Interfaces
 {
-    public interface ICouponRepository : IRepository<Coupon>
+    public interface ICouponRepository 
     {
-        Task<Coupon?> GetByCodeAsync(string code);
-        Task ApplyCouponAsync(Coupon coupon);
+        Task<Coupon> GetByIdAsync(int id);
+        Task<Coupon> GetByCodeAsync(string code);
+        Task<List<Coupon>> GetAllActiveAsync();
+        Task<List<Coupon>> GetAllAsync();
+        Task AddAsync(Coupon coupon);
+        Task UpdateAsync(Coupon coupon);
+        Task DeleteAsync(int id);
+        Task<bool> ExistsByCodeAsync(string code);
     }
 
 }

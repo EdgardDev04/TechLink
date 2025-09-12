@@ -15,12 +15,10 @@ namespace TechLink.Domain.Entities
         public string ImageProfile { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
-        public DateTime RegisteredAt { get; set; }
-        public DateTime LastLogin { get; set; }
-
-        [ForeignKey(nameof(Role))]
-        public int RoleId { get; set; }
+        public DateOnly RegisteredAt { get; set; }
+        public DateOnly LastLogin { get; set; }
         public Role Role { get; set; }
-        public ICollection<Address> Addresses { get; set; } = new List<Address>();
+        public Address Address { get; set; }
+        public List<Address> Addresses { get; set; } = new List<Address>();
     }
 }

@@ -34,9 +34,24 @@ namespace TechLink.Infrastructure.Repositories
             }
         }
 
+        public Task<bool> ExistsAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Shipping>> GetAllAsync()
         {
             return await _context.Shipping.ToListAsync();
+        }
+
+        public Task<List<Shipping>> GetByCarrierAsync(string carrier)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Shipping>> GetByEstimatedDeliveryDateAsync(DateTime date)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<Shipping?> GetByIdAsync(int id)
@@ -63,10 +78,20 @@ namespace TechLink.Infrastructure.Repositories
             return shippingExist;
         }
 
+        public Task<List<Shipping>> GetPendingShipmentsAsync()
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(Shipping entity)
         {
             _context.Shipping.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<Shipping>> IShippingRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

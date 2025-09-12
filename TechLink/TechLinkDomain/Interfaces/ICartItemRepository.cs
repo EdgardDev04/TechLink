@@ -9,10 +9,13 @@ namespace TechLink.Domain.Interfaces
 {
     public interface ICartItemRepository 
     {
-        Task AddAsync(  int cartId, int productId, CartItem entity);
-        Task UpdateAsync(int cartId, int productId, CartItem entity);
+        Task<CartItem> GetByIdAsync(int id);
+        Task<List<CartItem>> GetByCartIdAsync(int cartId);
+        Task<List<CartItem>> GetAllAsync();
+        Task AddAsync(CartItem cartItem);
+        Task UpdateAsync(CartItem cartItem);
         Task DeleteAsync(int id);
-        Task<List<CartItem>> GetItemsByCartIdAsync(int cartId);
+        Task<bool> ExistsAsync(int cartId, int productId);
+        Task<CartItem> GetByCartIdAndProductIdAsync(int cartId, int productId);
     }
-
 }

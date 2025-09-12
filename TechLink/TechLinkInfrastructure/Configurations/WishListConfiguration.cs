@@ -16,10 +16,10 @@ namespace TechLink.Infrastructure.Configurations
             builder.ToTable("WishLists");
             builder.HasKey(u => u.Id);
 
-            builder.HasOne(n => n.User)
-              .WithMany()
-              .HasForeignKey(n => n.UserId)
-              .OnDelete(DeleteBehavior.Cascade);
+            builder.HasOne(w => w.User)
+                .WithOne()
+                .HasForeignKey<WishList>(w => w.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

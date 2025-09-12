@@ -18,12 +18,12 @@ namespace TechLink.Infrastructure.Configurations
 
             builder.Property(c => c.CreatedAt);
 
-            builder.HasOne(n => n.User)
-              .WithMany()
-              .HasForeignKey(n => n.UserId)
-              .OnDelete(DeleteBehavior.Cascade);
+            builder.HasOne(c => c.User)
+                .WithOne()  
+                .HasForeignKey<Cart>(c => c.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
-           builder.HasMany(c => c.Items)
+            builder.HasMany(c => c.Items)
                  .WithOne(ci => ci.Cart)
                  .HasForeignKey(ci => ci.CartId)
                  .OnDelete(DeleteBehavior.Cascade);

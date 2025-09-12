@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TechLink.Application.Contracts;
 using TechLink.Application.Dtos.Product.Request;
 using TechLink.Application.Dtos.Product.Response;
-using TechLink.Application.Dtos.User;
-using TechLink.Application.DTOs;
 using TechLink.Domain.Entities;
 using TechLink.Domain.Enums;
 using TechLink.Domain.Interfaces;
 
 namespace TechLink.Application.Services
 {
-    public class ProductService 
+    public class ProductService : IProductService
     {
         private readonly IProductRepository _repo;
         public ProductService (IProductRepository repo)
@@ -39,6 +33,11 @@ namespace TechLink.Application.Services
             return product;
         }
 
+        public Task<int> CreateAsync(CreateProductDto dto)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task DeleteAsync(int id)
         {
             if (id < 0)
@@ -60,16 +59,26 @@ namespace TechLink.Application.Services
             }); 
         }
 
+        public Task<List<GetAllProductDto>> GetAllAsync(int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetProductByCategoryDto>> GetByCategoryAsync(int categoryId, int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<GetProductByCategoryIdDto>> GetByCategoryIdAsync(int categoryId)
         {
-            var productAll = await _repo.GetByCategoryIdAsync(categoryId);
+            throw new NotImplementedException();
 
-            return productAll.Select(p => new GetProductByCategoryIdDto
-            {
-                Name = p.Name,
-                Description = p.Description,
-                Image = p.Image
-            });
+            //return productAll.Select(p => new GetProductByCategoryIdDto
+            //{
+            //    Name = p.Name,
+            //    Description = p.Description,
+            //    Image = p.Image
+            //});
         }
 
         public async Task<GetProductByIdDto?> GetByIdAsync(int id)
@@ -89,19 +98,52 @@ namespace TechLink.Application.Services
             return productDto;
         }
 
+        public Task<List<GetProductsByBrandDto>> GetProductsByBrandAsync(string brand, int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetProductsOnSaleDto>> GetProductsOnSaleAsync(int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetTopRatedProductDto>> GetTopRatedProductsAsync(int count)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> IsInStockAsync(int productId, int requiredQuantity)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Product>> SearchAsync(string keyword)
         {
-            var product = await _repo.SearchAsync(keyword);
+            throw new NotImplementedException();
+        }
 
-            var search = new SearchDto
-            {
-                Name = product.Name
-            };
+        public Task<List<SearchProductDto>> SearchAsync(string query, int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
 
-            return search;
+        public Task<bool> SetProductStatusAsync(int productId, StatusProduct status)
+        {
+            throw new NotImplementedException();
         }
 
         public Task UpdateAsync(Product entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(int id, UpdateProductDto dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> UpdateStockAsync(int productId, int quantity)
         {
             throw new NotImplementedException();
         }

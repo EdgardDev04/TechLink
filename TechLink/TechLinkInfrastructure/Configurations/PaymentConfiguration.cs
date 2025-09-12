@@ -25,8 +25,8 @@ namespace TechLink.Infrastructure.Configurations
             builder.Property(u => u.IsSuccessful);
 
             builder.HasOne(n => n.Order)
-              .WithMany()
-              .HasForeignKey(n => n.OrderId)
+              .WithOne()
+              .HasForeignKey<Payment>(n => n.OrderId)
               .OnDelete(DeleteBehavior.Cascade);
         }
     }

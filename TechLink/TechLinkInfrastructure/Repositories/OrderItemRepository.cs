@@ -51,6 +51,11 @@ namespace TechLink.Infrastructure.Repositories
             return getOrderItem;
         }
 
+        public Task<List<OrderItem>> GetByOrderIdAsync(int orderId)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<IEnumerable<OrderItem>> GetItemsByOrderIdAsync(int orderId)
         {
             throw new NotImplementedException();
@@ -60,6 +65,11 @@ namespace TechLink.Infrastructure.Repositories
         {
             _context.OrderItem.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<OrderItem>> IOrderItemRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -38,8 +38,8 @@ namespace TechLink.Infrastructure.Configurations
               .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasOne(n => n.Shipping)
-              .WithMany()
-              .HasForeignKey(n => n.ShippingId)
+              .WithOne()
+              .HasForeignKey<Order>(n => n.ShippingId)
               .OnDelete(DeleteBehavior.Cascade);
         }
     }

@@ -40,6 +40,16 @@ namespace TechLink.Infrastructure.Repositories
             }
         }
 
+        public Task<bool> ExistsByCodeAsync(string code)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Coupon>> GetAllActiveAsync()
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Coupon>> GetAllAsync()
         {
             return await _context.Coupon.ToListAsync();
@@ -73,6 +83,11 @@ namespace TechLink.Infrastructure.Repositories
         {
             _context.Coupon.Add(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<Coupon>> ICouponRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

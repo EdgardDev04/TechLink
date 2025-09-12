@@ -17,7 +17,7 @@ namespace TechLink.Domain.Entities
 
         [Range(0, double.MaxValue, ErrorMessage = "Total amount must be non-negative.")]
         public decimal TotalAmount { get; set; }
-        public ICollection<OrderItem> Items { get; set; } = new List<OrderItem>();
+        public List<OrderItem> Items { get; set; } = new List<OrderItem>();
 
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }

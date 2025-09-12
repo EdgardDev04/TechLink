@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
 using TechLink.Domain.Entities;
+using TechLink.Domain.Enums;
 using TechLink.Domain.Interfaces;
 using TechLink.Infrastructure.Data;
 
@@ -52,6 +53,11 @@ namespace TechLink.Infrastructure.Repositories
             return getCategory;
         }
 
+        public Task<Category> GetByNameAsync(CategoryType name)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Product>> GetProductsByCategoryIdAsync(int categoryId)
         {
             var products = await _context.Product.Where(p => p.CategoryId == categoryId).ToListAsync();
@@ -68,6 +74,11 @@ namespace TechLink.Infrastructure.Repositories
         {
             _context.Category.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<Category>> ICategoryRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -40,6 +40,16 @@ namespace TechLink.Infrastructure.Repositories
             return await _context.Product.ToListAsync();
         }
 
+        public Task<List<Product>> GetByBrandAsync(string brand)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Product>> GetByCategoryAsync(int categoryId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Product>> GetByCategoryIdAsync(int categoryId)
         {
             var products = await _context.Product.Where(p => p.CategoryId == categoryId).ToListAsync();
@@ -63,6 +73,26 @@ namespace TechLink.Infrastructure.Repositories
             return getProduct;
         }
 
+        public Task<Product> GetByNameAsync(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Product>> GetByPriceRangeAsync(decimal minPrice, decimal maxPrice)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> GetStockAsync(int productId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> ProductExistsAsync(string name, string brand)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Product>> SearchAsync(string keyword)
         {
             var products = await _context.Product.
@@ -80,6 +110,21 @@ namespace TechLink.Infrastructure.Repositories
         {
             _context.Product.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        public Task<bool> UpdateStockAsync(int productId, int newStock)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<Product>> IProductRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<List<Product>> IProductRepository.SearchAsync(string searchTerm)
+        {
+            throw new NotImplementedException();
         }
     }
 }

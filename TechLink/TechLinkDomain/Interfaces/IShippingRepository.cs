@@ -7,8 +7,16 @@ using TechLink.Domain.Entities;
 
 namespace TechLink.Domain.Interfaces
 {
-    public interface IShippingRepository : IRepository<Shipping>
+    public interface IShippingRepository
     {
-        Task<Shipping?> GetByTrackingNumberAsync(string trackingNumber);
+        Task<Shipping> GetByIdAsync(int id);
+        Task<List<Shipping>> GetAllAsync();
+        Task<List<Shipping>> GetByCarrierAsync(string carrier);
+        Task<List<Shipping>> GetByEstimatedDeliveryDateAsync(DateTime date);
+        Task<List<Shipping>> GetPendingShipmentsAsync();
+        Task AddAsync(Shipping shipping);
+        Task UpdateAsync(Shipping shipping);
+        Task DeleteAsync(int id);
+        Task<bool> ExistsAsync(int id);
     }
 }

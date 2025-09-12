@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using TechLink.Application.Contracts;
+using TechLink.Application.Services;
 using TechLink.Infrastructure.Data;
 
 namespace TechLink.Presentation
@@ -14,6 +16,22 @@ namespace TechLink.Presentation
 
             builder.Services.AddDbContext<TechLinkDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("TechLinkConnection")));
+
+            builder.Services.AddScoped<IAddressService, AddressService>();
+            builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<ICartItemService, CartItemService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ICouponService, CouponService>();
+            builder.Services.AddScoped<INotificationService, NotificationService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped<IOrderItemService, OrderItemService>();
+            builder.Services.AddScoped<IPaymentService, PaymentService>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IReviewService, ReviewService>();
+            builder.Services.AddScoped<IRoleService, RoleService>();
+            builder.Services.AddScoped<IShippingService, ShippingService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IWishListService, WishListService>();
 
             var app = builder.Build();
 

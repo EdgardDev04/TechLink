@@ -53,6 +53,11 @@ namespace TechLink.Infrastructure.Repositories
             return null;
         }
 
+        public Task<List<Payment>> GetByOrderIdAsync(int orderId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Payment?> GetPaymentByOrderIdAsync(int orderId)
         {
             var getpayment = await _context.Payment.FirstOrDefaultAsync(x => x.OrderId == orderId);
@@ -65,10 +70,30 @@ namespace TechLink.Infrastructure.Repositories
             return null;
         }
 
+        public Task<List<Payment>> GetPaymentsByDateRangeAsync(DateTime from, DateTime to)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Payment>> GetPaymentsByStatusAsync(bool isSuccessful)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> PaymentExistsAsync(int orderId, decimal amount, DateTime paidAt)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(Payment entity)
         {
             _context.Payment.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<Payment>> IPaymentRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -25,6 +25,11 @@ namespace TechLink.Infrastructure.Configurations
             builder.Property(c => c.PostalCode);
 
             builder.Property(c => c.Country);
+
+            builder.HasOne(r => r.User)
+                .WithMany(u => u.Addresses) 
+                .HasForeignKey(r => r.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

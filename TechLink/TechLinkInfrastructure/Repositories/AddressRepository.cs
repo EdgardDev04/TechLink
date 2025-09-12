@@ -38,6 +38,11 @@ namespace TechLink.Infrastructure.Repositories
             }
         }
 
+        public Task<bool> ExistsAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<List<Address>> GetAddressesByUserIdAsync(int userId)
         {
             var userExists = await _context.User.AnyAsync(u => u.Id == userId);
@@ -66,6 +71,11 @@ namespace TechLink.Infrastructure.Repositories
             return addressExist;
         }
 
+        public Task<List<Address>> GetByUserIdAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(int id, Address entity)
         {
             var address = await _context.Address.FirstOrDefaultAsync(u => u.Id == id);
@@ -84,5 +94,14 @@ namespace TechLink.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public Task UpdateAsync(Address address)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdatePartialAsync(int id, Action<Address> updateAction)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

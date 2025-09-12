@@ -32,6 +32,12 @@ namespace TechLink.Infrastructure.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public Task<bool> ExistsByUserIdAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<IEnumerable<Cart>> GetAllAsync()
         {
             throw new NotImplementedException();
@@ -40,6 +46,12 @@ namespace TechLink.Infrastructure.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public Task<Cart> GetByUserIdAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Cart?> GetCartByUserIdAsync(int userId)
         {
             var cartExist = await _context.Cart.FirstOrDefaultAsync(x => x.UserId == userId);
@@ -55,6 +67,11 @@ namespace TechLink.Infrastructure.Repositories
         {
             _context.Cart.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<Cart>> ICartRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -51,6 +51,11 @@ namespace TechLink.Infrastructure.Repositories
             return getNotification;
         }
 
+        public Task<List<Notification>> GetByUserIdAsync(int userId, bool onlyUnread = false)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Notification>> GetUnreadByUserIdAsync(int userId)
         {
             var notification = await _context.Notification.Where(p => p.UserId == userId && p.IsRead == false).ToListAsync();
@@ -63,10 +68,20 @@ namespace TechLink.Infrastructure.Repositories
             return notification;
         }
 
+        public Task MarkAsReadAsync(int notificationId)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(Notification entity)
         {
              _context.Notification.Update(entity);
              await _context.SaveChangesAsync();
+        }
+
+        Task<List<Notification>> INotificationRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

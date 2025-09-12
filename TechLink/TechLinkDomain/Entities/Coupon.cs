@@ -17,7 +17,7 @@ namespace TechLink.Domain.Entities
         public decimal Discount { get; set; }
 
         [Required]
-        public DateTime ExpirationDate { get; set; }
+        public DateOnly ExpirationDate { get; set; }
         public bool IsActive { get; set; }
 
     }

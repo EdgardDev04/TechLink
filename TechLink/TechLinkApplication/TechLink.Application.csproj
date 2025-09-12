@@ -7,36 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TechLinkDomain\TechLink.Domain.csproj" />
+    <Compile Remove="Dtos\Categories\Request\**" />
+    <Compile Remove="Dtos\WishLists\Request\**" />
+    <EmbeddedResource Remove="Dtos\Categories\Request\**" />
+    <EmbeddedResource Remove="Dtos\WishLists\Request\**" />
+    <None Remove="Dtos\Categories\Request\**" />
+    <None Remove="Dtos\WishLists\Request\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\Address\Request\" />
-    <Folder Include="Dtos\Address\Response\" />
-    <Folder Include="Dtos\CartItem\Request\" />
-    <Folder Include="Dtos\CartItem\Response\" />
-    <Folder Include="Dtos\Cart\Request\" />
-    <Folder Include="Dtos\Cart\Response\" />
-    <Folder Include="Dtos\Category\Request\" />
-    <Folder Include="Dtos\Category\Response\" />
-    <Folder Include="Dtos\Coupon\Request\" />
-    <Folder Include="Dtos\Coupon\Response\" />
-    <Folder Include="Dtos\Notification\Request\" />
-    <Folder Include="Dtos\Notification\Response\" />
-    <Folder Include="Dtos\OrderItem\Request\" />
-    <Folder Include="Dtos\OrderItem\Response\" />
-    <Folder Include="Dtos\Order\Request\" />
-    <Folder Include="Dtos\Order\Response\" />
-    <Folder Include="Dtos\Payment\Request\" />
-    <Folder Include="Dtos\Payment\Response\" />
-    <Folder Include="Dtos\Review\Request\" />
-    <Folder Include="Dtos\Review\Response\" />
-    <Folder Include="Dtos\Role\Request\" />
-    <Folder Include="Dtos\Role\Response\" />
-    <Folder Include="Dtos\Shipping\Request\" />
-    <Folder Include="Dtos\Shipping\Response\" />
-    <Folder Include="Dtos\WishList\Request\" />
-    <Folder Include="Dtos\WishList\Response\" />
+    <ProjectReference Include="..\TechLinkDomain\TechLink.Domain.csproj" />
   </ItemGroup>
 
 </Project>

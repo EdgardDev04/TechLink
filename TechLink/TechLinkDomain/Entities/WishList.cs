@@ -9,7 +9,8 @@ namespace TechLink.Domain.Entities
 {
     public class WishList : BaseEntity
     {
-        public ICollection<Product> Products { get; set; } = new List<Product>();
+        public List<WishListProduct> WishListProducts { get; set; } = new List<WishListProduct>();
+        public List<Product> Products { get; set; } = new List<Product>();
         public int UserId { get; set; }
         public User User { get; set; }
     }

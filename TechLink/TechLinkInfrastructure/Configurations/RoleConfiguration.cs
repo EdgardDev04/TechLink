@@ -21,10 +21,10 @@ namespace TechLink.Infrastructure.Configurations
 
             builder.Property(u => u.Description);
 
-            builder.HasOne(n => n.User)
-              .WithMany()
-              .HasForeignKey(n => n.UserId)
-              .OnDelete(DeleteBehavior.Cascade);
+            builder.HasOne(r => r.User)
+                .WithOne(u => u.Role)
+                .HasForeignKey<Role>(r => r.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
 
         }
     }

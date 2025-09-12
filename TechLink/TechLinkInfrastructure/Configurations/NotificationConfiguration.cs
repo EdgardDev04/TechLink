@@ -25,8 +25,8 @@ namespace TechLink.Infrastructure.Configurations
             builder.Property(u => u.SentAt);
 
             builder.HasOne(n => n.User)
-              .WithMany()
-              .HasForeignKey(n => n.UserId)
+              .WithOne()
+              .HasForeignKey<Notification>(n => n.UserId)
               .OnDelete(DeleteBehavior.Cascade);
 
         }

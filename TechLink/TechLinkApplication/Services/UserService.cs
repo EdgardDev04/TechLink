@@ -1,95 +1,129 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿
+using TechLink.Application.Contracts;
+using TechLink.Application.Dtos.Address.Request;
 using TechLink.Application.Dtos.User;
 using TechLink.Application.Dtos.User.Request;
 using TechLink.Application.Dtos.User.Response;
-using TechLink.Domain.Entities;
 using TechLink.Domain.Interfaces;
 
 namespace TechLink.Application.Services
 {
-    public class UserService 
+    public class UserService : IUserService
     {
-        private readonly IMapper _mapper;
         private readonly IUserRepository _repo;
-        public UserService(IUserRepository repo, IMapper mapper)
+        public UserService(IUserRepository repo)
         {
             _repo = repo;
-            _mapper = mapper;
         }
 
-        public async Task AddAsync(CreateUserDto dto)
+        public Task AddAddressAsync(int userId, CreateAddressDto dto)
         {
-            var user = new User
-            {
-                UserName = dto.UserName,
-                ImageProfile = dto.ImageProfile,
-                Email = dto.Email,
-                Password = dto.Password,
-                RegisteredAt = DateTime.UtcNow,
-                LastLogin = DateTime.UtcNow,
-                RoleId = dto.RoleId
-            };
-
-            await _repo.AddAsync(user);
-        }
-        
-        public async Task<GetUserByEmailResponseDto> GetByEmailAsync(string email)
-        {
-            var user = await _repo.GetByEmailAsync(email);
-
-            if (user == null)
-            {
-                throw new Exception("User does not exist");
-            }
-
-            return _mapper.Map<GetUserByEmailResponseDto>(user);
-
+            throw new NotImplementedException();
         }
 
-        public async Task<GetUserByIdResponseDto?> GetByIdAsync(int id)
+        public Task AssignRoleAsync(int userId, int roleId)
         {
-            var user = await _repo.GetByIdAsync(id);
-
-            if (user == null)
-            {
-                throw new Exception("User does not exist");
-            }
-
-            return new GetUserByIdResponseDto
-            {
-                UserName = user.UserName
-            };
+            throw new NotImplementedException();
         }
 
-        public async Task<GetUserByUsernameResponseDto?> GetByUsernameAsync(string username)
+        public Task ChangePasswordAsync(int userId, string currentPassword, string newPassword)
         {
-            var user= await _repo.GetByUsernameAsync(username);
-
-            if (user == null)
-            {
-                return null;
-            }
-
-            return new GetUserByUsernameResponseDto
-            {
-                Username = user.UserName
-            };
+            throw new NotImplementedException();
         }
 
-        public async Task UpdateAsync(UpdateUserDto dto)
+        public Task DeleteAddressAsync(int addressId)
         {
-            var user = new User
-            {
-                UserName = dto.UserName,
-                ImageProfile = dto.ImageProfile
-            };
+            throw new NotImplementedException();
+        }
 
-            await _repo.UpdateAsync(user);
+        public Task DeleteUserAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task DisableTwoFactorAuthenticationAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task EnableTwoFactorAuthenticationAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetAllUserDto>> GetAllAsync(int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GetUserByEmailDto> GetByEmailAsync(string email)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GetUserByIdDto> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<DateOnly> GetLastLoginAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> GetUnreadNotificationsCountAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetUserAddressDto>> GetUserAddressesAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<GetUserNotificationDto>> GetUserNotificationsAsync(int userId, bool onlyUnread = false)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<GetUserRoleDto> GetUserRoleAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task MarkNotificationAsReadAsync(int notificationId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> RegisterUserAsync(RegisterUserDto dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task ResetPasswordAsync(string email)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAddressAsync(int addressId, UpdateAddressDto dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateLastLoginAsync(int userId, DateTime loginTime)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateUserAsync(int id, UpdateUserDto dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> ValidateUserCredentialsAsync(string email, string password)
+        {
+            throw new NotImplementedException();
         }
     }
 }

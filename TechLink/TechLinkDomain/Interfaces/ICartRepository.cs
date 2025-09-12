@@ -7,9 +7,15 @@ using TechLink.Domain.Entities;
 
 namespace TechLink.Domain.Interfaces
 {
-    public interface ICartRepository : IRepository<Cart>
+    public interface ICartRepository 
     {
-        Task<Cart?> GetCartByUserIdAsync(int userId);
+        Task<Cart> GetByIdAsync(int id);
+        Task<Cart> GetByUserIdAsync(int userId);
+        Task<List<Cart>> GetAllAsync();
+        Task AddAsync(Cart cart);
+        Task UpdateAsync(Cart cart);
+        Task DeleteAsync(int id);
+        Task<bool> ExistsByUserIdAsync(int userId);
     }
 
 }

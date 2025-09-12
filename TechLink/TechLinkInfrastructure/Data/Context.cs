@@ -46,6 +46,7 @@ namespace TechLink.Infrastructure.Data
             modelBuilder.ApplyConfiguration<Shipping>(new ShippingConfiguration());
             modelBuilder.ApplyConfiguration<User>(new UserConfiguration());
             modelBuilder.ApplyConfiguration<WishList>(new WishListConfiguration());
+            modelBuilder.ApplyConfiguration<WishListProduct>(new WishListProductConfiguration());
         }
     }
 }

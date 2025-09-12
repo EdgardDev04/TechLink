@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TechLink.Domain.Entities;
+using TechLink.Domain.Enums;
 using TechLink.Domain.Interfaces;
 using TechLink.Infrastructure.Data;
 
@@ -52,6 +53,16 @@ namespace TechLink.Infrastructure.Repositories
             return getOrder;
         }
 
+        public Task<List<Order>> GetByUserIdAsync(int userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Order>> GetOrdersByStatusAsync(StatusOrder status)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Order>> GetOrdersByUserIdAsync(int userId)
         {
             var getUser = await _context.User.FindAsync(userId);
@@ -64,10 +75,20 @@ namespace TechLink.Infrastructure.Repositories
             return await _context.Order.Where(o => o.UserId == userId).ToListAsync();
         }
 
+        public Task<Order> GetOrderWithDetailsAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateAsync(Order entity)
         {
             _context.Order.Update(entity);
             await _context.SaveChangesAsync();
+        }
+
+        Task<List<Order>> IOrderRepository.GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }
